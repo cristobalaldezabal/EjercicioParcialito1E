@@ -12,5 +12,23 @@ Considerar que las categorías pueden ser: almacen, lácteos, limpieza o bebidas
 
 function mostrar()
 {
+	
+let nombre ;
+let categoria ;
+let precio;
+let resp;
+
+
+do {
+nombre = prompt("ingrese nombre de articulo");
+categoria= prompt("ingrese su categoria");
+precio=prompt("ingrese su precio");
+prompt("desea sumar otro producto? si/no?");
+
+}while(resp=="si")
+
+
+
+
 	alert("Hola Mundo");
 }
